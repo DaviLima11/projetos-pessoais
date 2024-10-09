@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pesquisa</title>
+</head>
+<body>
+    <main>
+        <h1 class="title-main">Formulário de Pesquisa</h1>
+        <p class="decreption"><em>este é um formulaio para ajudar a melhorar a nossa plataforma</em></p>
+        <div class="container_form">
+            <section>
+                    <div class="form_content">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" placeholder="Digite seu nome" class="input-campos">
+                    </div>
+                    <div class="form_content">
+                        <label for="">E-mail</label>
+                        <input type="email" id="iemail" class="input-campos" placeholder="Insira seu email">
+                    </div>
+                    <div class="form_content">
+                        <label for="idade">Idade<span class="opcional"> (opcional)</span></label>
+                        <input type="number" name="idade" id="idade" min="1" class="input-campos" placeholder="Sua idadde">
+                    </div>
+                    <div class="form_content">
+                        <label for="funcao">Qual opção descreve melhor sua função atual?</label>
+                        <select name="funcao" id="funcao" class="input-campos">
+                            <option class="option_selct" disabled selected>Selecione a sua função atual</option>
+                            <option value="Estudante">Estudante</option>
+                            <option value="ETI">Emprego em tempo integral</option>
+                            <option value="Aprendiz">Aprendiz em tempo integral</option>
+                            <option value="Nao dizer">
+                                Prefiro não dizer
+                            </option>
+                            <option value="outro">outro</option>
+                        </select>
+                    </div>
+                    <div class="form_content">
+                        <label>Você recomendaria o site um amigo?</label>
+                        <label><input type="radio" name="escolha" id="defin">Definitivamente</label>
+                        <label><input type="radio" name="escolha" id="">Talvez</label>
+                        <label><input type="radio" name="escolha" id="nsei">Não tenho certeza</label>
+                    </div>
+                    <div class="form_content">
+                        <label for="recurso">Qual é seu recurso favorito do Site?</label>
+                        <select name="resurso" id="recurso" class="input-campos">
+                            <option disabled selected class="option_selct">Selecione uma opção</option>
+                            <option value="cumunidade">comunidade</option>
+                            <option value="Estudante">desafios</option>
+                            <option value="ETI">projetos</option>
+                            <option value="Aprendiz">código aberto</option>
+                        </select>
+                    </div>
+                    <div class="form_content">
+                        <label for="melhora">O que você gostaria de ver melhorado?<span> (Marque todas as opções aplicáveis)</span></label>
+                        <label for="option1"><input type="checkbox" name="Front-end" id="option1">Projetos Front-end</label>
+                        <label for="option11"><input type="checkbox" name="Front-end" id="option11">Projetos Front-end</label>                    <label for="option2"><input type="checkbox" name="Front-end" id="option2">Projetos Front-end</label>                    <label for="option3"><input type="checkbox" name="Front-end" id="option3">Projetos Front-end</label>                    <label for="option4"><input type="checkbox" name="Front-end" id="option4">Projetos Front-end</label>                    <label for="option5"><input type="checkbox" name="" id="option5">Projetos Front-end</label>                    <label for="option6"><input type="checkbox" name="Front-end" id="option6">Projetos Front-end</label>                    <label for="option7"><input type="checkbox" name="Front-end" id="option7">Projetos Front-end</label>                    <label for="option8"><input type="checkbox" name="Front-end" id="option8">Projetos Front-end</label>                    <label for="option9"><input type="checkbox" name="Front-end" id="option9">Projetos Front-end</label>                    <label for="option10"><input type="checkbox" name="Front-end" id="option10">Projetos Front-end</label>
+                    </div>
+                    <div class="form_content">
+                        <label for="mgs">Algum comentário ou sugestão</label>
+                        <textarea id="msg" rows="8" cols="40" class="input-campos-text" placeholder="Digite sua mensagem aqui">
+                    
+                        </textarea>
+                    
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" class="btn">
+                    </div>    
+            </section>
+        </div>
+    </main>
+</body>
+</html>
