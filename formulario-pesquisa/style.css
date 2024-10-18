@@ -26,11 +26,8 @@ main{
 
 }
 
-
-section{
-    display: flex;
-    flex-direction: column;
-    gap: 1.8em;
+.form_content{
+    margin-bottom: 1.3em;
 }
 
 
@@ -57,7 +54,7 @@ label{
 }
 
 
-input, label, select{
+input, label, .form{
     display: block;
 }
 
@@ -84,6 +81,11 @@ input[type="radio"] {
     cursor: pointer;
 }
 
+.input_color{
+    background-color: #ffffffb9;
+}
+
+
 .input-campos-text{
     width: 100%;
 }
@@ -93,15 +95,14 @@ input[type="radio"] {
 }
 
 .input-campos-text::placeholder{
-    font-size: 1.2em;
-    opacity: .6;
+    font-size: 1.6em;
+    opacity: .8;
     padding: 2px;
 }
 
 .input-campos:focus{
     outline: 2.7px solid hsl(268, 100%, 40%);
 }
-
 
 
 .btn{
